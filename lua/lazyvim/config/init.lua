@@ -9,9 +9,9 @@ LazyVim.config = M
 ---@class LazyVimOptions
 local defaults = {
   -- colorscheme can be a string like `catppuccin` or a function that will load the colorscheme
-  ---@type string|fun()
+  ----@type string|fun()
   -- colorscheme = function()
-    -- require("tokyonight").load()
+  --   require("tokyonight").load()
   -- end,
   -- load the default settings
   defaults = {
